@@ -1,0 +1,176 @@
+/* Intro Div */
+.all-divs {
+    text-align: center;
+    background-color: royalblue;
+    padding: 4em
+  }
+  
+  .all-h {
+      color: ghostwhite;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 42px;
+  }
+  
+  .all-p {
+      color: ghostwhite;
+      padding: 1em;
+      font-size: 21px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .all-buttons {
+      background-color: ghostwhite;
+      color: royalblue;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+      font-size: 18px;
+      border-radius: 1em;
+      border: none;
+      border-color: whitesmoke;
+      padding: .5em;
+  }
+  
+
+
+
+
+
+ /*Fight Scene*/
+
+  #container {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1em;
+}
+
+
+.boxes {
+    height: 25em;
+    
+}
+
+.images {
+    height:300px;
+    width: 100%
+}
+
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: firebrick;
+    
+}
+
+.display-stats {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#enemt1-stats {
+  text-align:left;
+  padding: 1em
+}
+
+#spot-stats {
+    text-align:right;
+    padding: 1em;
+    padding-top: 8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+#bottomDiv {
+    display: flex;
+    justify-content: center;
+
+}
+
+#bottom-button {
+    border-radius: .5em;
+    background-color: royalblue;
+    color:floralwhite;
+    border-color:lightblue
+}
+
+#new-button {
+    border-radius: .5em;
+    background-color: royalblue;
+    color:floralwhite;
+    border-color:lightblue
+}
+
+#commentary {
+    color:firebrick;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+/*End fight-scene*/
+
+
+ /*Fight Scene 2*/
+
+ #container2 {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1em;
+}
+
+#stats2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: firebrick;
+    
+}
+
+#enemy2-stats {
+  text-align:left;
+  padding: 1em
+}
+
+#spot-stats2 {
+    text-align:right;
+    padding: 1em;
+    padding-top: 8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+#bottomDiv2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#bottom-button2 {
+    border-radius: .5em;
+    background-color: royalblue;
+    color:floralwhite;
+    border-color:lightblue
+}
+
+#new-button2 {
+    border-radius: .5em;
+    background-color: royalblue;
+    color:floralwhite;
+    border-color:lightblue
+}
+
+#commentary2 {
+    color:firebrick;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+/*End fight-scene 2*/
